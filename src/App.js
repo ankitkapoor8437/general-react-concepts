@@ -1,9 +1,9 @@
 import './App.css';
-
+import ObjectData from './components/ObjectsManipulation';
 function App() {
   return (
-    <div className="App">
-      Hello
+    <div className='App'>
+      <ObjectData />
     </div>
   );
 }

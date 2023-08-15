@@ -1,9 +1,12 @@
 import './App.css';
-import ObjectData from './components/ObjectsManipulation';
+import Parent from './components/Base/Parent';
+// import ObjectData from './components/ObjectsManipulation';
+
 function App() {
   return (
     <div className='App'>
-      <ObjectData />
+      {/* <ObjectData /> */}
+      <Parent/>
     </div>
   );
 }

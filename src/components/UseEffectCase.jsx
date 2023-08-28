@@ -20,7 +20,7 @@ const UseEffectCase = () => {
     return (
         <div>
             {
-                data.map(({ id, login }) => (
+                data?.map(({ id, login }) => (
                     <h2 key={id}>
                         {login}
                     </h2>
